@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the accompanying paper."
+title: "reuse-metrics: reference implementation and replication package of the provenance-partition reuse framework"
+version: 1.0.0
+license: MIT
+authors:
+  - family-names: "[Author 1 surname]"
+    given-names: "[given names]"
+  - family-names: "[Author 2 surname]"
+    given-names: "[given names]"
+preferred-citation:
+  type: article
+  title: "Measuring Software Reuse When the Reusing Agent is a Foundation Model: A Provenance-Partition Framework"
+  authors:
+    - family-names: "[Author 1 surname]"
+      given-names: "[given names]"
+    - family-names: "[Author 2 surname]"
+      given-names: "[given names]"
+  year: 2026
+  journal: "[under review]"

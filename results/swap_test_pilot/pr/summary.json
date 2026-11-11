@@ -1,0 +1,106 @@
+{
+  "n_blocks": 30,
+  "models": [
+    "anthropic:claude-haiku-5-5",
+    "anthropic:claude-sonnet-5-5",
+    "ollama:gpt-oss:120b"
+  ],
+  "origin": {
+    "Claude_Code": "anthropic:claude-sonnet-5-5"
+  },
+  "R": 3,
+  "q": 0.34,
+  "temperature": 0.2,
+  "prompt_level": "pr",
+  "distance": "token",
+  "blocks_with_docstring": 30,
+  "api_calls_this_run": 270,
+  "empty_answers_this_run": {
+    "ollama:gpt-oss:120b": 1
+  },
+  "models_at_default_temperature": [
+    "anthropic:claude-haiku-5-5",
+    "anthropic:claude-sonnet-5-5"
+  ],
+  "by_theta": {
+    "0.3": {
+      "verdicts": {
+        "under_specified": 27,
+        "coupled": 2,
+        "regenerable": 1
+      },
+      "n_with_control": 30,
+      "under_specified_share": 0.9,
+      "coupled_block_share_given_control": 0.667,
+      "coupled_line_share_given_control": 0.784,
+      "coupled_share_by_nested_M": [
+        0.067,
+        0.067,
+        0.067
+      ],
+      "theorem3_monotone": true,
+      "F(delta=0.05)": 0.133,
+      "per_repo_median": 0.0,
+      "per_repo_iqr": [
+        0.0,
+        0.0
+      ]
+    },
+    "0.4": {
+      "verdicts": {
+        "under_specified": 21,
+        "coupled": 5,
+        "regenerable": 4
+      },
+      "n_with_control": 30,
+      "under_specified_share": 0.7,
+      "coupled_block_share_given_control": 0.556,
+      "coupled_line_share_given_control": 0.662,
+      "coupled_share_by_nested_M": [
+        0.167,
+        0.167,
+        0.167
+      ],
+      "theorem3_monotone": true,
+      "F(delta=0.05)": 0.033,
+      "per_repo_median": 0.0,
+      "per_repo_iqr": [
+        0.0,
+        0.0
+      ]
+    },
+    "0.5": {
+      "verdicts": {
+        "under_specified": 16,
+        "regenerable": 10,
+        "coupled": 4
+      },
+      "n_with_control": 30,
+      "under_specified_share": 0.533,
+      "coupled_block_share_given_control": 0.286,
+      "coupled_line_share_given_control": 0.461,
+      "coupled_share_by_nested_M": [
+        0.133,
+        0.133,
+        0.133
+      ],
+      "theorem3_monotone": true,
+      "F(delta=0.05)": 0.3,
+      "per_repo_median": 0.0,
+      "per_repo_iqr": [
+        0.0,
+        0.0
+      ]
+    }
+  },
+  "d_self_controlled": {
+    "n": 30,
+    "quantiles_10_25_50_75_90": [
+      0.333,
+      0.397,
+      0.524,
+      0.662,
+      0.741
+    ]
+  }
+}

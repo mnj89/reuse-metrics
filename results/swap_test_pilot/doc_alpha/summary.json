@@ -1,0 +1,101 @@
+{
+  "n_blocks": 30,
+  "models": [
+    "anthropic:claude-haiku-5-5",
+    "anthropic:claude-sonnet-5-5",
+    "ollama:gpt-oss:120b"
+  ],
+  "origin": {
+    "Claude_Code": "anthropic:claude-sonnet-5-5"
+  },
+  "R": 3,
+  "q": 0.34,
+  "temperature": 0.2,
+  "prompt_level": "doc",
+  "distance": "alpha",
+  "blocks_with_docstring": 30,
+  "api_calls_this_run": 0,
+  "empty_answers_this_run": {},
+  "models_at_default_temperature": [],
+  "by_theta": {
+    "0.3": {
+      "verdicts": {
+        "under_specified": 25,
+        "coupled": 3,
+        "regenerable": 2
+      },
+      "n_with_control": 30,
+      "under_specified_share": 0.833,
+      "coupled_block_share_given_control": 0.6,
+      "coupled_line_share_given_control": 0.708,
+      "coupled_share_by_nested_M": [
+        0.1,
+        0.1,
+        0.1
+      ],
+      "theorem3_monotone": true,
+      "F(delta=0.05)": 0.2,
+      "per_repo_median": 0.0,
+      "per_repo_iqr": [
+        0.0,
+        0.0
+      ]
+    },
+    "0.4": {
+      "verdicts": {
+        "under_specified": 20,
+        "coupled": 5,
+        "regenerable": 5
+      },
+      "n_with_control": 30,
+      "under_specified_share": 0.667,
+      "coupled_block_share_given_control": 0.5,
+      "coupled_line_share_given_control": 0.64,
+      "coupled_share_by_nested_M": [
+        0.167,
+        0.167,
+        0.167
+      ],
+      "theorem3_monotone": true,
+      "F(delta=0.05)": 0.067,
+      "per_repo_median": 0.0,
+      "per_repo_iqr": [
+        0.0,
+        0.0
+      ]
+    },
+    "0.5": {
+      "verdicts": {
+        "under_specified": 14,
+        "regenerable": 13,
+        "coupled": 3
+      },
+      "n_with_control": 30,
+      "under_specified_share": 0.467,
+      "coupled_block_share_given_control": 0.188,
+      "coupled_line_share_given_control": 0.364,
+      "coupled_share_by_nested_M": [
+        0.133,
+        0.133,
+        0.1
+      ],
+      "theorem3_monotone": true,
+      "F(delta=0.05)": 0.233,
+      "per_repo_median": 0.0,
+      "per_repo_iqr": [
+        0.0,
+        0.0
+      ]
+    }
+  },
+  "d_self_controlled": {
+    "n": 30,
+    "quantiles_10_25_50_75_90": [
+      0.243,
+      0.373,
+      0.486,
+      0.646,
+      0.744
+    ]
+  }
+}

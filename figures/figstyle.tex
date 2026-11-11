@@ -1,0 +1,26 @@
+% Shared style for the vector figures (Figs. 1, 2, 4). Compile each fig*.tex with pdflatex.
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{amsmath,amssymb}
+\usepackage{sansmath}
+\usepackage{tikz}
+\usetikzlibrary{arrows.meta,calc,positioning,fit,patterns,decorations.pathreplacing}
+\renewcommand{\familydefault}{\sfdefault}
+\sansmath
+% class colours (blue, green, orange, purple, grey): distinguishable in greyscale by label, not by colour alone
+\definecolor{cD}{HTML}{1F5FAE}
+\definecolor{cL}{HTML}{1B7F4B}
+\definecolor{cP}{HTML}{C2590F}
+\definecolor{cG}{HTML}{6A3D9A}
+\definecolor{cH}{HTML}{4D4D4D}
+\definecolor{cA}{HTML}{8A5A00}   % PPA (event audit)
+\definecolor{ink}{HTML}{1A1A1A}
+\definecolor{rule}{HTML}{8C8C8C}
+\tikzset{
+  >={Stealth[length=5pt,width=4pt]},
+  every picture/.style={line cap=round,line join=round,text=ink},
+  box/.style={draw=#1,line width=0.7pt,rounded corners=2.5pt,fill=#1!7,align=center,inner sep=3pt},
+  plain/.style={draw=rule,line width=0.6pt,rounded corners=2.5pt,fill=white,align=center,inner sep=3pt},
+  flow/.style={->,line width=0.6pt,draw=ink!85},
+}
+\hyphenpenalty=10000\exhyphenpenalty=10000

@@ -1,0 +1,61 @@
+# Named-pattern vocabulary N for Python projects (one per line, case-insensitive).
+# Version this file and report its hash with every PPC value.
+# Framework / library names
+SQLAlchemy
+Django ORM
+Django model
+Flask blueprint
+FastAPI router
+pydantic
+dataclass
+attrs
+Celery task
+asyncio
+argparse
+click command
+pytest fixture
+unittest
+logging config
+dotenv
+# Design patterns
+singleton
+factory pattern
+factory method
+abstract factory
+builder pattern
+strategy pattern
+observer pattern
+decorator pattern
+adapter pattern
+facade
+repository pattern
+dependency injection
+command pattern
+state machine
+visitor pattern
+template method
+context manager
+# Architectural / API patterns
+REST endpoint
+CRUD
+middleware
+JWT
+OAuth
+rate limiter
+retry with backoff
+circuit breaker
+pagination
+caching layer
+LRU cache
+webhook
+event handler
+message queue
+producer consumer
+# Data / ML idioms
+pandas pipeline
+DataFrame
+numpy vectorised
+scikit-learn pipeline
+PyTorch module
+Dataset class
+DataLoader

@@ -1,0 +1,13 @@
+# Everything needed to reproduce the paper's numbers and figures (no model access needed).
+# For the library alone, `pip install -e .` is enough (numpy only).
+numpy>=1.22
+pandas
+pyarrow
+scipy
+matplotlib
+huggingface_hub
+requests
+pytest
+nbformat
+nbconvert
+ipykernel

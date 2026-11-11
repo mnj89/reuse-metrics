@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+.ipynb_checkpoints/
+build/
+dist/
+*.egg-info/
+.venv/
+venv/
+
+# Secrets: API keys are read from the environment and must never be committed
+.env
+*.key
+
+# Local working folders of new runs (results of the paper live under results/)
+/output*/
+/gci*/
+/fake_aidev/
+/data/
+*.parquet
+!results/field_study/runs/*/units.parquet
+
+# LaTeX and figure build products
+figures/*.aux
+figures/*.log
+figures/*.pdf
+figures/*.pgf
+
+# OS and editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

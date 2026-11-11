@@ -1,0 +1,35 @@
+{
+  "n_repos": 40,
+  "n_units": 404864,
+  "n_events": 720,
+  "median": {
+    "DRR": 0.037,
+    "LRD_log": 0.815,
+    "PPC": 0.133,
+    "PPC_U": 0.134,
+    "PLC": 1.0,
+    "GCI": 0.0,
+    "HRS_equal_weights": 0.481
+  },
+  "iqr": {
+    "DRR": 0.026,
+    "LRD_log": 0.28,
+    "PPC": 0.135,
+    "PPC_U": 0.286,
+    "PLC": 0.0,
+    "GCI": 0.0,
+    "HRS_equal_weights": 0.079
+  },
+  "params": {
+    "rho0": "n/a (post-merge edits not observed)",
+    "N_file_sha256": "f46c729c0cc3",
+    "granularity": "logical line added in merged PR, Python files",
+    "GCI": "not run (requires a regeneration oracle)",
+    "H_set": false
+  },
+  "scope": "pop",
+  "revision": "v5",
+  "seed": 1,
+  "min_prs": 10,
+  "max_prs_per_repo": 30
+}

@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "reuse-metrics"
+version = "1.0.0"
+description = "Reference implementation and replication package of the provenance-partition framework for measuring software reuse in AI-augmented codebases"
+readme = "README.md"
+requires-python = ">=3.9"
+license = {text = "MIT"}
+dependencies = ["numpy>=1.22"]
+
+[project.optional-dependencies]
+dev = ["pytest", "nbformat", "nbconvert", "ipykernel"]
+studies = ["pandas", "pyarrow", "scipy", "matplotlib", "huggingface_hub", "requests"]
+models = ["anthropic>=2", "openai", "google-genai"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

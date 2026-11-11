@@ -1,0 +1,174 @@
+{
+  "pooled_n_repos": 105,
+  "pooled_n_units": 1095235,
+  "pooled_n_events": 1528,
+  "pooled_units_by_class": {
+    "D": 40324,
+    "L": 848242,
+    "P": 206669
+  },
+  "pooled_stats": {
+    "median": {
+      "DRR": 0.036,
+      "LRD_log": 0.887,
+      "PPC": 0.111,
+      "PPC_U": 0.054,
+      "PLC": 1.0,
+      "HRS_equal_weights": 0.456
+    },
+    "q1": {
+      "DRR": 0.025,
+      "LRD_log": 0.729,
+      "PPC": 0.0,
+      "PPC_U": 0.0,
+      "PLC": 1.0,
+      "HRS_equal_weights": 0.422
+    },
+    "q3": {
+      "DRR": 0.053,
+      "LRD_log": 0.955,
+      "PPC": 0.2,
+      "PPC_U": 0.24,
+      "PLC": 1.0,
+      "HRS_equal_weights": 0.51
+    },
+    "min": {
+      "DRR": 0.0,
+      "LRD_log": 0.022,
+      "PPC": 0.0,
+      "PPC_U": 0.0,
+      "PLC": 1.0,
+      "HRS_equal_weights": 0.4
+    },
+    "max": {
+      "DRR": 0.217,
+      "LRD_log": 1.0,
+      "PPC": 0.75,
+      "PPC_U": 0.976,
+      "PLC": 1.0,
+      "HRS_equal_weights": 0.749
+    }
+  },
+  "agents": {
+    "Claude_Code": 21,
+    "Copilot": 21,
+    "OpenAI_Codex": 21,
+    "Cursor": 16,
+    "Devin": 14,
+    "Google_Jules": 12
+  },
+  "per_agent_median": {
+    "Claude_Code": {
+      "DRR": 0.03,
+      "LRD_log": 0.93,
+      "PPC": 0.08,
+      "HRS_equal_weights": 0.444
+    },
+    "Copilot": {
+      "DRR": 0.042,
+      "LRD_log": 0.829,
+      "PPC": 0.103,
+      "HRS_equal_weights": 0.469
+    },
+    "Cursor": {
+      "DRR": 0.029,
+      "LRD_log": 0.95,
+      "PPC": 0.079,
+      "HRS_equal_weights": 0.435
+    },
+    "Devin": {
+      "DRR": 0.037,
+      "LRD_log": 0.777,
+      "PPC": 0.167,
+      "HRS_equal_weights": 0.492
+    },
+    "Google_Jules": {
+      "DRR": 0.061,
+      "LRD_log": 0.902,
+      "PPC": 0.179,
+      "HRS_equal_weights": 0.473
+    },
+    "OpenAI_Codex": {
+      "DRR": 0.038,
+      "LRD_log": 0.876,
+      "PPC": 0.125,
+      "HRS_equal_weights": 0.463
+    }
+  },
+  "per_agent_n": {
+    "Claude_Code": 21,
+    "Copilot": 21,
+    "Cursor": 16,
+    "Devin": 14,
+    "Google_Jules": 12,
+    "OpenAI_Codex": 21
+  },
+  "per_run_median": {
+    "seed1_min5": {
+      "DRR": 0.035,
+      "LRD_log": 0.832,
+      "PPC": 0.125,
+      "PPC_U": 0.098,
+      "PLC": 1.0,
+      "HRS_equal_weights": 0.461
+    },
+    "seed2_min5": {
+      "DRR": 0.037,
+      "LRD_log": 0.889,
+      "PPC": 0.138,
+      "PPC_U": 0.067,
+      "PLC": 1.0,
+      "HRS_equal_weights": 0.458
+    },
+    "seed3_min5": {
+      "DRR": 0.035,
+      "LRD_log": 0.942,
+      "PPC": 0.065,
+      "PPC_U": 0.001,
+      "PLC": 1.0,
+      "HRS_equal_weights": 0.441
+    },
+    "seed1_min10": {
+      "DRR": 0.037,
+      "LRD_log": 0.815,
+      "PPC": 0.133,
+      "PPC_U": 0.134,
+      "PLC": 1.0,
+      "HRS_equal_weights": 0.481
+    }
+  },
+  "per_run_n": {
+    "seed1_min5": 40,
+    "seed2_min5": 40,
+    "seed3_min5": 40,
+    "seed1_min10": 40
+  },
+  "equal_drr_pairs_total": 1536,
+  "equal_drr_pairs_lrd_gt_0.1": 874,
+  "equal_drr_pairs_lrd_gt_0.3": 363,
+  "equal_drr_pairs_ppc_gt_0.2": 344,
+  "max_lrd_gap_at_equal_drr": 0.9190822988604375,
+  "spearman_LRD_PPC": [
+    -0.741,
+    0.0
+  ],
+  "spearman_DRR_units": [
+    -0.134,
+    0.172
+  ],
+  "spearman_LRD_units": [
+    -0.175,
+    0.075
+  ],
+  "kruskal_LRD_by_agent": [
+    8.79,
+    0.118
+  ],
+  "kruskal_PPC_by_agent": [
+    5.433,
+    0.365
+  ],
+  "drr_zero_repos": 1,
+  "ppc_zero_repos": 34,
+  "ppc_zero_share": 0.324
+}
